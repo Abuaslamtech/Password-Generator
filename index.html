@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
-    <script src="./app.js"></script>
+    <script src="./app.js" defer></script>
     <title>Password Generator</title>
   </head>
   <body>
@@ -15,12 +15,12 @@
     <main>
       <div class="password" id="password"></div>
       <div class="btns">
-        <button>Generate</button>
-        <button>Copy</button>
+        <button id="genpbtn">Generate</button>
+        <button id="copybtn">Copy</button>
       </div>
     </main>
     <footer>
-        <p>&copy; 2020 Developed by Abuaslam - 30 Days of Code</p>
+      <p>&copy; 2020 Developed by Abuaslam - 30 Days of Code</p>
     </footer>
   </body>
 </html>
